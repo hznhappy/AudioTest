@@ -7,50 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18C8F481153820FC002AFA59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8F480153820FC002AFA59 /* UIKit.framework */; };
-		18C8F483153820FC002AFA59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8F482153820FC002AFA59 /* Foundation.framework */; };
-		18C8F485153820FC002AFA59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8F484153820FC002AFA59 /* CoreGraphics.framework */; };
-		18C8F48B153820FC002AFA59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C8F489153820FC002AFA59 /* InfoPlist.strings */; };
-		18C8F48D153820FC002AFA59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8F48C153820FC002AFA59 /* main.m */; };
-		18C8F491153820FC002AFA59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8F490153820FC002AFA59 /* AppDelegate.m */; };
-		18C8F494153820FC002AFA59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8F493153820FC002AFA59 /* ViewController.m */; };
-		18C8F497153820FC002AFA59 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C8F495153820FC002AFA59 /* ViewController.xib */; };
+		187FCD8E1544EB26009CE501 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187FCD8D1544EB26009CE501 /* AVFoundation.framework */; };
+		1882A97D153FDD63001AA9B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8F480153820FC002AFA59 /* UIKit.framework */; };
+		1882A97E153FDD63001AA9B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8F482153820FC002AFA59 /* Foundation.framework */; };
+		1882A97F153FDD63001AA9B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8F484153820FC002AFA59 /* CoreGraphics.framework */; };
+		1882A985153FDD63001AA9B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1882A983153FDD63001AA9B4 /* InfoPlist.strings */; };
+		1882A987153FDD63001AA9B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882A986153FDD63001AA9B4 /* main.m */; };
+		1882A98B153FDD63001AA9B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882A98A153FDD63001AA9B4 /* AppDelegate.m */; };
+		1882A98E153FDD63001AA9B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882A98D153FDD63001AA9B4 /* ViewController.m */; };
+		1882A991153FDD63001AA9B4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1882A98F153FDD63001AA9B4 /* ViewController.xib */; };
+		1882A995153FDDDE001AA9B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E77A11153BAC9500037D86 /* AudioToolbox.framework */; };
+		1882A996153FDDEA001AA9B4 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E77A19153BAE7800037D86 /* AudioPlayer.m */; };
+		1882A997153FDDEA001AA9B4 /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18930B8B153C04BC00D160A5 /* AudioRecorder.m */; };
+		188990361547D4A8007D1D78 /* BottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 188990351547D4A8007D1D78 /* BottomBar.png */; };
+		188990411547FC98007D1D78 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 188990401547FC98007D1D78 /* camera.png */; };
+		188990431547FDEB007D1D78 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 188990421547FDEB007D1D78 /* setting.png */; };
+		188990451547FE83007D1D78 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 188990441547FE83007D1D78 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18C8F47C153820FC002AFA59 /* TrimAudioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrimAudioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187FCD8D1544EB26009CE501 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1882A97B153FDD63001AA9B4 /* TrimAudioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrimAudioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1882A982153FDD63001AA9B4 /* TrimAudioTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrimAudioTest-Info.plist"; sourceTree = "<group>"; };
+		1882A984153FDD63001AA9B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1882A986153FDD63001AA9B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1882A988153FDD63001AA9B4 /* TrimAudioTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrimAudioTest-Prefix.pch"; sourceTree = "<group>"; };
+		1882A989153FDD63001AA9B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1882A98A153FDD63001AA9B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1882A98C153FDD63001AA9B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1882A98D153FDD63001AA9B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1882A990153FDD63001AA9B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		188990351547D4A8007D1D78 /* BottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BottomBar.png; sourceTree = "<group>"; };
+		188990401547FC98007D1D78 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		188990421547FDEB007D1D78 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		188990441547FE83007D1D78 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		18930B8A153C04BC00D160A5 /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioRecorder.h; path = TrimAudioTest/AudioRecorder.h; sourceTree = "<group>"; };
+		18930B8B153C04BC00D160A5 /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioRecorder.m; path = TrimAudioTest/AudioRecorder.m; sourceTree = "<group>"; };
 		18C8F480153820FC002AFA59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18C8F482153820FC002AFA59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18C8F484153820FC002AFA59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18C8F488153820FC002AFA59 /* TrimAudioTest-Info.plist */ = {isa = PBXFileReference; path = "TrimAudioTest-Info.plist"; sourceTree = "<group>"; };
-		18C8F48A153820FC002AFA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18C8F48C153820FC002AFA59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18C8F48E153820FC002AFA59 /* TrimAudioTest-Prefix.pch */ = {isa = PBXFileReference; path = "TrimAudioTest-Prefix.pch"; sourceTree = "<group>"; };
-		18C8F48F153820FC002AFA59 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		18C8F490153820FC002AFA59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18C8F492153820FC002AFA59 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		18C8F493153820FC002AFA59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18C8F496153820FC002AFA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18E77A11153BAC9500037D86 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18E77A18153BAE7800037D86 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPlayer.h; path = TrimAudioTest/AudioPlayer.h; sourceTree = "<group>"; };
+		18E77A19153BAE7800037D86 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioPlayer.m; path = TrimAudioTest/AudioPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18C8F479153820FC002AFA59 /* Frameworks */ = {
+		1882A978153FDD63001AA9B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C8F481153820FC002AFA59 /* UIKit.framework in Frameworks */,
-				18C8F483153820FC002AFA59 /* Foundation.framework in Frameworks */,
-				18C8F485153820FC002AFA59 /* CoreGraphics.framework in Frameworks */,
+				187FCD8E1544EB26009CE501 /* AVFoundation.framework in Frameworks */,
+				1882A995153FDDDE001AA9B4 /* AudioToolbox.framework in Frameworks */,
+				1882A97D153FDD63001AA9B4 /* UIKit.framework in Frameworks */,
+				1882A97E153FDD63001AA9B4 /* Foundation.framework in Frameworks */,
+				1882A97F153FDD63001AA9B4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1882A980153FDD63001AA9B4 /* TrimAudioTest */ = {
+			isa = PBXGroup;
+			children = (
+				1882A989153FDD63001AA9B4 /* AppDelegate.h */,
+				1882A98A153FDD63001AA9B4 /* AppDelegate.m */,
+				1882A98C153FDD63001AA9B4 /* ViewController.h */,
+				1882A98D153FDD63001AA9B4 /* ViewController.m */,
+				1882A98F153FDD63001AA9B4 /* ViewController.xib */,
+				1882A981153FDD63001AA9B4 /* Supporting Files */,
+			);
+			path = TrimAudioTest;
+			sourceTree = "<group>";
+		};
+		1882A981153FDD63001AA9B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188990351547D4A8007D1D78 /* BottomBar.png */,
+				188990441547FE83007D1D78 /* logo.png */,
+				188990421547FDEB007D1D78 /* setting.png */,
+				188990401547FC98007D1D78 /* camera.png */,
+				1882A982153FDD63001AA9B4 /* TrimAudioTest-Info.plist */,
+				1882A983153FDD63001AA9B4 /* InfoPlist.strings */,
+				1882A986153FDD63001AA9B4 /* main.m */,
+				1882A988153FDD63001AA9B4 /* TrimAudioTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18930B8E153C04D000D160A5 /* Recorder&Player */ = {
+			isa = PBXGroup;
+			children = (
+				18E77A18153BAE7800037D86 /* AudioPlayer.h */,
+				18E77A19153BAE7800037D86 /* AudioPlayer.m */,
+				18930B8A153C04BC00D160A5 /* AudioRecorder.h */,
+				18930B8B153C04BC00D160A5 /* AudioRecorder.m */,
+			);
+			name = "Recorder&Player";
+			sourceTree = "<group>";
+		};
 		18C8F471153820FC002AFA59 = {
 			isa = PBXGroup;
 			children = (
-				18C8F486153820FC002AFA59 /* TrimAudioTest */,
+				18930B8E153C04D000D160A5 /* Recorder&Player */,
+				1882A980153FDD63001AA9B4 /* TrimAudioTest */,
 				18C8F47F153820FC002AFA59 /* Frameworks */,
 				18C8F47D153820FC002AFA59 /* Products */,
 			);
@@ -59,7 +119,7 @@
 		18C8F47D153820FC002AFA59 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18C8F47C153820FC002AFA59 /* TrimAudioTest.app */,
+				1882A97B153FDD63001AA9B4 /* TrimAudioTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +127,8 @@
 		18C8F47F153820FC002AFA59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				187FCD8D1544EB26009CE501 /* AVFoundation.framework */,
+				18E77A11153BAC9500037D86 /* AudioToolbox.framework */,
 				18C8F480153820FC002AFA59 /* UIKit.framework */,
 				18C8F482153820FC002AFA59 /* Foundation.framework */,
 				18C8F484153820FC002AFA59 /* CoreGraphics.framework */,
@@ -74,40 +136,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18C8F486153820FC002AFA59 /* TrimAudioTest */ = {
-			isa = PBXGroup;
-			children = (
-				18C8F48F153820FC002AFA59 /* AppDelegate.h */,
-				18C8F490153820FC002AFA59 /* AppDelegate.m */,
-				18C8F492153820FC002AFA59 /* ViewController.h */,
-				18C8F493153820FC002AFA59 /* ViewController.m */,
-				18C8F495153820FC002AFA59 /* ViewController.xib */,
-				18C8F487153820FC002AFA59 /* Supporting Files */,
-			);
-			path = TrimAudioTest;
-			sourceTree = "<group>";
-		};
-		18C8F487153820FC002AFA59 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				18C8F488153820FC002AFA59 /* TrimAudioTest-Info.plist */,
-				18C8F489153820FC002AFA59 /* InfoPlist.strings */,
-				18C8F48C153820FC002AFA59 /* main.m */,
-				18C8F48E153820FC002AFA59 /* TrimAudioTest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18C8F47B153820FC002AFA59 /* TrimAudioTest */ = {
+		1882A97A153FDD63001AA9B4 /* TrimAudioTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18C8F49A153820FD002AFA59 /* Build configuration list for PBXNativeTarget "TrimAudioTest" */;
+			buildConfigurationList = 1882A992153FDD63001AA9B4 /* Build configuration list for PBXNativeTarget "TrimAudioTest" */;
 			buildPhases = (
-				18C8F478153820FC002AFA59 /* Sources */,
-				18C8F479153820FC002AFA59 /* Frameworks */,
-				18C8F47A153820FC002AFA59 /* Resources */,
+				1882A977153FDD63001AA9B4 /* Sources */,
+				1882A978153FDD63001AA9B4 /* Frameworks */,
+				1882A979153FDD63001AA9B4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,7 +153,7 @@
 			);
 			name = TrimAudioTest;
 			productName = TrimAudioTest;
-			productReference = 18C8F47C153820FC002AFA59 /* TrimAudioTest.app */;
+			productReference = 1882A97B153FDD63001AA9B4 /* TrimAudioTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +162,7 @@
 		18C8F473153820FC002AFA59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 18C8F476153820FC002AFA59 /* Build configuration list for PBXProject "TrimAudioTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -138,49 +176,55 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18C8F47B153820FC002AFA59 /* TrimAudioTest */,
+				1882A97A153FDD63001AA9B4 /* TrimAudioTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18C8F47A153820FC002AFA59 /* Resources */ = {
+		1882A979153FDD63001AA9B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C8F48B153820FC002AFA59 /* InfoPlist.strings in Resources */,
-				18C8F497153820FC002AFA59 /* ViewController.xib in Resources */,
+				1882A985153FDD63001AA9B4 /* InfoPlist.strings in Resources */,
+				1882A991153FDD63001AA9B4 /* ViewController.xib in Resources */,
+				188990361547D4A8007D1D78 /* BottomBar.png in Resources */,
+				188990411547FC98007D1D78 /* camera.png in Resources */,
+				188990431547FDEB007D1D78 /* setting.png in Resources */,
+				188990451547FE83007D1D78 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18C8F478153820FC002AFA59 /* Sources */ = {
+		1882A977153FDD63001AA9B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C8F48D153820FC002AFA59 /* main.m in Sources */,
-				18C8F491153820FC002AFA59 /* AppDelegate.m in Sources */,
-				18C8F494153820FC002AFA59 /* ViewController.m in Sources */,
+				1882A996153FDDEA001AA9B4 /* AudioPlayer.m in Sources */,
+				1882A997153FDDEA001AA9B4 /* AudioRecorder.m in Sources */,
+				1882A987153FDD63001AA9B4 /* main.m in Sources */,
+				1882A98B153FDD63001AA9B4 /* AppDelegate.m in Sources */,
+				1882A98E153FDD63001AA9B4 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18C8F489153820FC002AFA59 /* InfoPlist.strings */ = {
+		1882A983153FDD63001AA9B4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18C8F48A153820FC002AFA59 /* en */,
+				1882A984153FDD63001AA9B4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		18C8F495153820FC002AFA59 /* ViewController.xib */ = {
+		1882A98F153FDD63001AA9B4 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18C8F496153820FC002AFA59 /* en */,
+				1882A990153FDD63001AA9B4 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -188,6 +232,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1882A993153FDD63001AA9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrimAudioTest/TrimAudioTest-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "TrimAudioTest/TrimAudioTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1882A994153FDD63001AA9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrimAudioTest/TrimAudioTest-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "TrimAudioTest/TrimAudioTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		18C8F498153820FC002AFA59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -233,31 +305,18 @@
 			};
 			name = Release;
 		};
-		18C8F49B153820FD002AFA59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TrimAudioTest/TrimAudioTest-Prefix.pch";
-				INFOPLIST_FILE = "TrimAudioTest/TrimAudioTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		18C8F49C153820FD002AFA59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TrimAudioTest/TrimAudioTest-Prefix.pch";
-				INFOPLIST_FILE = "TrimAudioTest/TrimAudioTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1882A992153FDD63001AA9B4 /* Build configuration list for PBXNativeTarget "TrimAudioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1882A993153FDD63001AA9B4 /* Debug */,
+				1882A994153FDD63001AA9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		18C8F476153820FC002AFA59 /* Build configuration list for PBXProject "TrimAudioTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -266,14 +325,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		18C8F49A153820FD002AFA59 /* Build configuration list for PBXNativeTarget "TrimAudioTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18C8F49B153820FD002AFA59 /* Debug */,
-				18C8F49C153820FD002AFA59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
